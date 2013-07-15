@@ -1,5 +1,5 @@
 .DS_STORE
-config.js
 .git
 npm-debug.log
+config.js
 node_modules/

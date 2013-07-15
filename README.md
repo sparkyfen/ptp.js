@@ -13,8 +13,8 @@ MIT
 Install
 -------
 ```
-    npm install ptp
-    var ptp = require('ptp');
+    npm install ptp.js
+    var ptp = require('ptp.js');
 ```
 Use a config file like the template provided or input your data statically to the application.
 

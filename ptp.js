@@ -41,7 +41,7 @@ var search = function (query, callback) {
 		return callback("Missing parameters");
 	}
 	request.post(
-		endpoint+'/torrents.php?searchstr='+query+'&json=noredirect',
+		endpoint+'/torrents.php?searchstr='+encodeURIComponent(query)+'&json=noredirect',
 		function (error, response, body) {
 			if(error) {
 				return callback(error);
